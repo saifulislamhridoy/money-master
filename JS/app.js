@@ -1,7 +1,7 @@
 function getInputValue(className){
     const inputField = document.getElementById(className);
-    const getValue = inputField.value 
-    inputField.value=''
+    const getValue = inputField.value;
+    inputField.value='';
     return getValue;  
 }
 document.getElementById('calc-btn').addEventListener('click', function(){
